@@ -1,6 +1,11 @@
 spring:
   application:
     name: transaction-engine
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mapping: false
 
 server:
   port: 8080
