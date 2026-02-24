@@ -8,7 +8,7 @@ spring:
       add-mapping: false
 
 server:
-  port: 8080
+  port: ${SERVER_PORT:8080}
 
 management:
   endpoints:
