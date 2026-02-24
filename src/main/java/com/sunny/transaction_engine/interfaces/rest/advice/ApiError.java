@@ -18,7 +18,7 @@ public class ApiError {
 
     public LocalDateTime getTimestamp() { return timestamp;}
     public int getStatus() { return status; }
-    public String gerError() { return error; }
+    public String getError() { return error; }
     public String getMessage() { return message; }
     public String getPath() { return path; }
 
